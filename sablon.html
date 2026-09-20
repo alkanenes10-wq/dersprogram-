@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Öğretmen ve sınıfların kurumda olduğu gün ve saatlere göre haftalık ders ve etüt programını otomatik üreten web uygulaması.">
+<meta name="theme-color" content="#1e6fd9">
+<meta name="color-scheme" content="light">
+<title>Ders &amp; Etüt Programlama Sistemi</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%231e6fd9'/%3E%3Crect x='20' y='26' width='60' height='10' rx='3' fill='%23fff'/%3E%3Crect x='20' y='45' width='60' height='10' rx='3' fill='%23fff' opacity='.75'/%3E%3Crect x='20' y='64' width='38' height='10' rx='3' fill='%23fff' opacity='.5'/%3E%3C/svg%3E">
+<style>
+/*__STIL__*/
+</style>
+</head>
+<body>
+
+<div id="acilisHatasi" style="display:none;margin:24px;padding:18px 20px;border:2px solid #d93025;border-radius:10px;background:#fff5f5;color:#8a1c14;font:15px/1.6 system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;max-width:760px">
+  <div style="font-size:18px;font-weight:700;margin-bottom:8px">Uygulama açılamadı</div>
+  <div id="acilisHatasiMetin">Sayfa yüklendi ama arayüz kurulamadı.</div>
+  <div style="margin-top:12px;font-size:13.5px;color:#5f2b25">
+    Sayfayı <b>Ctrl&nbsp;+&nbsp;F5</b> ile zorla yenileyin. Sorun sürerse bu kutudaki
+    metni kopyalayıp iletin.
+  </div>
+</div>
+
+<div class="top"><div class="top-in">
+  <div class="brand">📘 Ders &amp; Etüt Programı <small>2026-2027</small></div>
+  <div class="kpis" id="kpis"></div>
+  <div class="spacer"></div>
+  <div class="btns">
+    <button class="btn primary" id="bGen">🔄 Yeniden Oluştur</button>
+    <button class="btn" id="bRuns" title="Bu oturumda üretilen programlar" disabled>🧪 Denemeler</button>
+    <button class="btn" id="bMem" title="Kayıt noktaları ve işlem günlüğü">💾 Hafıza</button>
+    <button class="btn" id="bExp" title="JSON yedek indir">⬇</button>
+    <button class="btn" id="bImp" title="JSON yedek yükle">⬆</button>
+    <button class="btn" id="bRep" title="Yazdırılabilir rapor">🖨</button>
+    <button class="btn danger" id="bReset" title="Örnek veriye dön">🗑</button>
+  </div>
+</div></div>
+
+<div class="tabs" id="tabs"></div>
+<div class="wrap"><div class="panel" id="view"></div></div>
+<div id="report"></div>
+<input type="file" id="fileIn" accept=".json" style="display:none">
+
+<script>
+/* Açılış denetçisi — bir hata olursa beyaz sayfa yerine nedenini gösterir. */
+(function () {
+  var kutu = document.getElementById('acilisHatasi');
+  var metin = document.getElementById('acilisHatasiMetin');
+  var bildirildi = false;
+
+  function goster(aciklama) {
+    if (bildirildi) return;
+    bildirildi = true;
+    metin.textContent = aciklama;
+    kutu.style.display = 'block';
+  }
+
+  window.addEventListener('error', function (e) {
+    goster('JavaScript hatası: ' + (e.message || 'bilinmiyor') +
+           (e.lineno ? ' (satır ' + e.lineno + ')' : ''));
+  });
+
+  window.addEventListener('load', function () {
+    setTimeout(function () {
+      var tabs = document.getElementById('tabs');
+      if (!tabs || tabs.children.length === 0) {
+        goster('Arayüz kurulamadı: sekmeler oluşmadı. Dosya eksik ya da bozuk indirilmiş olabilir.');
+      }
+    }, 1200);
+  });
+})();
+</script>
+
+<script>
+/*__BETIK__*/
+</script>
+</body>
+</html>

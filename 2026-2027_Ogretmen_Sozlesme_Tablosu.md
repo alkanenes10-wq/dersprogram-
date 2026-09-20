@@ -1,0 +1,27 @@
+# 2026-2027 Öğretmen Sözleşme Tablosu
+
+| ÖĞRETMEN | PAZARTESİ | SALI | ÇARŞAMBA | PERŞEMBE | CUMA | CUMARTESİ | PAZAR | TOPLAM DERS SAATİ |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---: |
+| SELİN DÜNDAR METİN [5 GÜN] | FULL | FULL | İZİNLİ | FULL | İZİNLİ | FULL | FULL | 31 |
+| GÜLNAZ KEMEL [5 GÜN] | FULL | FULL | FULL | İZİNLİ | İZİNLİ | FULL | FULL | 24 |
+| DİLARA ÜNLÜ [3,5 GÜN] | 15.00'DAN SONRA | 15.00'DAN SONRA | 15.00'DAN SONRA | İZİNLİ | İZİNLİ | FULL | FULL | 18 |
+| YAVUZ YAZICI [2,5 GÜN] | FULL | 16.30 ÇIKIŞ | İZİNLİ | İZİNLİ | İZİNLİ | SABAHTAN YARIM GÜN | İZİNLİ | 15 |
+| MURAT KARAHAN [4,5 GÜN] | FULL | FULL | 13.00'E KADAR YARIM GÜN | İZİNLİ | İZİNLİ | FULL | FULL | 21 |
+| CUMA ÜNLÜ [5 GÜN] | FULL | FULL | FULL | İZİNLİ | İZİNLİ | FULL | FULL | 17 |
+| SERDAR POLAT [5 GÜN] | FULL | İZİNLİ | FULL | FULL | İZİNLİ | FULL | FULL | 21 |
+| MERVE BAL [3,5 GÜN] | FULL | İZİNLİ | FULL | 13.00'E KADAR YARIM GÜN | İZİNLİ | FULL | İZİNLİ | 12 |
+| HARUN YILMAZ [4 GÜN] | FULL | FULL | FULL | İZİNLİ | İZİNLİ | İZİNLİ | FULL | 19 |
+| HATİCE GÜRDAL [4 GÜN] | FULL | İZİNLİ | FULL | FULL | İZİNLİ | İZİNLİ | FULL | 16 |
+| YÜCEL YILMAZ [4 GÜN] | FULL | FULL | İZİNLİ | İZİNLİ | İZİNLİ | FULL | FULL | 17 |
+| TUĞBA YAPICI [4 GÜN] | FULL | FULL | İZİNLİ | FULL | İZİNLİ | FULL | İZİNLİ | 16 |
+| SÜMEYYE BAŞKAYA [2 GÜN] | 16.30'DAN SONRA | İZİNLİ | 13.00'E KADAR YARIM GÜN | İZİNLİ | İZİNLİ | İZİNLİ | 10.30-16.40 ARASI | 10 |
+| MERVE KADIOĞLU DEMİRCİ [3,5 GÜN] | 18.00 ÇIKIŞ | İZİNLİ | 16.30 ÇIKIŞ | 13.00'E KADAR YARIM GÜN | İZİNLİ | FULL | İZİNLİ | 12 |
+| M. NADİR KILIÇ [3,5 GÜN] | 15.00'DAN SONRA | 13.00'E KADAR YARIM GÜN | İZİNLİ | 13.00'E KADAR YARIM GÜN | İZİNLİ | FULL | FULL | 13 |
+| BETÜL ÖZTEKİN [5,5 GÜN] | FULL | FULL | FULL | 13.00'E KADAR YARIM GÜN | İZİNLİ | FULL | FULL | 24 |
+| MELTEM BEDEN [3 GÜN] | FULL | İZİNLİ | FULL | İZİNLİ | İZİNLİ | FULL | İZİNLİ | 11 |
+| MERVE NUR AKÇA [3,5 GÜN] | 15.00'DAN SONRA | 15.00'DAN SONRA | 15.00'DAN SONRA | 15.00'DAN SONRA | İZİNLİ | FULL | SABAHTAN YARIM GÜN | 12 |
+| TÜLAY ULUPINAR [3 GÜN] | 15.00'DAN SONRA | 15.00'DAN SONRA | 15.00'DAN SONRA | İZİNLİ | İZİNLİ | FULL | Ö. SONRA YARIM GÜN | 12 |
+| GAMZE NİSA DEMİRTAŞ [3 GÜN] | FULL | İZİNLİ | İZİNLİ | İZİNLİ | İZİNLİ | FULL | FULL | 14 |
+| HİLAL NUR KARAKAŞ [4 GÜN] | 15.00'DAN SONRA | 15.00'DAN SONRA | 15.00'DAN SONRA | 15.00'DAN SONRA | İZİNLİ | FULL | FULL | 12 |
+| ESRA MEKEÇ (2,5 GÜN) | 15.30'DAN SONRA | İZİNLİ | İZİNLİ | İZİNLİ | İZİNLİ | FULL 12.15-18.55 | FULL 10.30-18.10 | 12 |
+| SELİM BOZTEPE (3,5 GÜN) | 15.00'DAN SONRA | İZİNLİ | İZİNLİ | FULL | İZİNLİ | FULL | FULL | 17 |

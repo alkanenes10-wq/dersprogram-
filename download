@@ -1,0 +1,17 @@
+# aSc program dosyası (büyük, uygulamada kullanılmıyor)
+*.roz
+
+# Uygulamanın ⬇ düğmesiyle indirdiği JSON yedekleri
+yedek*.json
+backup*.json
+ders-programi-yedek*.json
+
+# Araçlar
+node_modules/
+.vercel/
+.cache/
+
+# İşletim sistemi
+.DS_Store
+Thumbs.db
+desktop.ini

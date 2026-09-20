@@ -1,0 +1,14 @@
+# index.html artık kendi kendine yeten tek dosyadır: stil ve betikler içine gömülüdür.
+# Aşağıdakiler yalnızca kaynak/referanstır, yayınlanan siteye GEREKMEZ.
+# (Depoda durmaya devam ederler, sadece siteye kopyalanmazlar.)
+
+# Kaynak dosyalar — index.html bunlardan "node birlestir.js" ile üretilir
+assets/
+birlestir.js
+
+# Kurum içi referans belgeler (öğretmen sözleşme tablosu vb.) — internete açılmasın
+docs/
+
+# Yayında gereksiz
+README.md
+.nojekyll
